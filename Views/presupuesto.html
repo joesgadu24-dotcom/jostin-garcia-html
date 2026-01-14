@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Presupuesto Fondant</title>
     <meta name="description" content="Solicita un presupuesto personalizado para tu pastel">
-    <link rel="stylesheet" href="c:\Users\Usuario\Documents\Html\Jostin_Garcia_HTML\CSS\Estilos.css"> <!--Agregar hoja de estilos-->
+    <link rel="stylesheet" href="CSS\estilos.css"> <!--Agregar hoja de estilos-->
 </head>
 <body>
     <header class="site-header"> <!--Agregar los links del header-->
         <div class="container header-inner">
-            <a href="Index.html" class="brand"> <img src="c:\Users\Usuario\Documents\Html\Jostin_Garcia_HTML\Imagenes\logo.png" alt="Logo fondant" class="logo"></a>
+            <a href="Index.html" class="brand"> <img src="Imagenes\logo.png" alt="Logo fondant" class="logo"></a>
             <nav class="main-nav" aria-label="Navegación principal">
-             <a href="c:\Users\Usuario\Documents\Html\Jostin_Garcia_HTML\Views\Index.html" class="nav-link">Inicio</a>
-            <a href="Productos.html" class="nav-link active">Productos</a>
-            <a href="Presupuesto.html" class="nav-link">Presupuesto</a>
-            <a href="Contacto.html" class="nav-link">Contacto</a>
+             <a href="index.html" class="nav-link">Inicio</a>
+            <a href="Views/productos.html" class="nav-link active">Productos</a>
+            <a href="Views/presupuesto.html" class="nav-link">Personalizado</a>
+            <a href="Views/contacto.html" class="nav-link">Contacto</a>
             </nav>
         </div>
     </header>
     <main>
         <section class="section section-form" id="presupuesto">
             <div class="container">
-                <h1>Solicitar presupuesto</h1>
+                <h1>Solicitar Personalizado</h1>
                 <p class="lead">Rellena el formulario y nos pondremos en contacto contigo.</p>
                 <form action="form-presupuesto" action="#" method="post" novalidate> <!--La etiqueta novalidate desactiva la validación automatica del navegador-->
                     <div class="form-grid">
@@ -39,7 +39,7 @@
                         <textarea name="mensaje" id="mensaje" rows="6" required></textarea>
                     </label>
                     <label class="full checkbox">Nombre completo <!--Colocar la HREF del aviso legal-->
-                        <input id="privacidad" name="privacidad" type="checkbox" required>He leído y acepto <a href="aviso-legal.html">politíca de privacidad</a>
+                        <input id="privacidad" name="privacidad" type="checkbox" required>He leído y acepto <a href="Views/aviso-legal.html">politíca de privacidad</a>
                     </label>
                     <div class="full">
                         <button type="submit" class="btn-primary">Enviar solicitud</button>
@@ -54,3 +54,4 @@
     </footer>
 </body>
 </html>
+
