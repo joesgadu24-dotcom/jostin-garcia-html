@@ -27,7 +27,8 @@
         <p>
             En caso de estar interesado en comprar fisicamente acuda a nuestros servicios en:     </p>    
         <p>
-            (Link de contacto)
+            <a href="contacto.html" class="nav-link active">Contacto</a>
+                Gracias por su atención.
         </p>
     </main>
 </body>
