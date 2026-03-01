@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title> 
+    <link rel="stylesheet" href="../css/estilos.css">
+    <head class="header">
+    </head>
+    <body>
+          <header class="site-header">
+         <div class="container header-inner">
+         <a href="../index.html" class="brand"> 
+         <img src="../imagenes/logo.png" alt="Logo Fondant" class="logo"></a>  
+         <nav class="main-nav" aria-label="Navegación principal">
+            <a href="../index.html" class="nav-link">Inicio</a>
+            <a href="productos.html" class="nav-link active">Nuestros productos</a>
+            <a href="presupuesto.html" class="nav-link">Personalizados</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+         </nav>
+         </div>
+    </header>
+    <main class="intro">
+         <h1>Gracias por rellenar nuestro formulario</h1>
+        <p>
+            Contactaremos con usted lo antes posible para completar el proceso de la compra de su producto.
+        </p>
+        <p>
+            En caso de estar interesado en comprar fisicamente acuda a nuestros servicios en:     </p>    
+        <p>
+            <a href="contacto.html" class="nav-link active">Contacto</a>
+                Gracias por su atención.
+        </p>
+    </main>
+</body>
+</html>
