@@ -34,13 +34,13 @@
                     <input id="email" name="email" type="email" required>
                     </label>
                     <label for="telefono">Teléfono
-                    <input id="telefono" name="telefono" type="tel" required pattern="[0-9+/s/-()]{7,}"> <!--Indicamos un minimo de 7 numeros y añadimos caracteres-->
+                    <input id="telefono" name="telefono" type="tel" required pattern="[0-9+/\s()-]{7,}"> <!--Indicamos un minimo de 7 numeros y añadimos caracteres-->
                     </label>
                     <label for="mensaje" class="full">Detalles del pedido
                         <textarea name="mensaje" id="mensaje" rows="6" required></textarea>
                     </label>
-                    <label class="full checkbox">Nombre completo <!--Colocar la HREF del aviso legal-->
-                        <input id="privacidad" name="privacidad" type="checkbox" required>He leído y acepto <a href="aviso-legal.html">politíca de privacidad</a>
+                    <label class="full checkbox"> <!--Colocar la HREF del aviso legal-->
+                        <input id="privacidad" name="privacidad" type="checkbox" required>He leído y acepto <a href="aviso-legal.html">Aviso legal</a>
                     </label>
                     <div class="full">
                         <button type="submit" class="btn-primary">Enviar solicitud</button>
