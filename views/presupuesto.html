@@ -27,24 +27,24 @@
                 <p class="lead">Rellena el formulario y nos pondremos en contacto contigo.</p>
                 <form action="form.html" method="get">
                     <div class="form-grid">
-                    <label for="nombre">Nombre completo 
-                        <input id="nombre" name="nombre" type="text" required>
-                    </label>
-                    <label for="email">Correo electrónico
-                    <input id="email" name="email" type="email" required>
-                    </label>
-                    <label for="telefono">Teléfono
-                    <input id="telefono" name="telefono" type="tel" required pattern="[0-9+/\s()-]{7,}"> <!--Indicamos un minimo de 7 numeros y añadimos caracteres-->
-                    </label>
-                    <label for="mensaje" class="full">Detalles del pedido
-                        <textarea name="mensaje" id="mensaje" rows="6" required></textarea>
-                    </label>
-                    <label class="full checkbox"> <!--Colocar la HREF del aviso legal-->
-                        <input id="privacidad" name="privacidad" type="checkbox" required>He leído y acepto <a href="aviso-legal.html">Aviso legal</a>
-                    </label>
-                    <div class="full">
-                        <button type="submit" class="btn-primary">Enviar solicitud</button>
-                    </div>
+                        <label for="nombre">Nombre completo 
+                            <input id="nombre" name="nombre" type="text" required>
+                        </label>
+                        <label for="email">Correo electrónico
+                            <input id="email" name="email" type="email" required>
+                        </label>
+                        <label for="telefono">Teléfono
+                            <input id="telefono" name="telefono" type="tel" required pattern="[0-9+/\s()-]{7,}"> <!--Contiene un minimo de 7 numeros y caracteres-->
+                        </label>
+                        <label for="mensaje" class="full">Detalles del pedido
+                            <textarea name="mensaje" id="mensaje" rows="6" required></textarea>
+                        </label>
+                        <label class="full checkbox"> <!--HREF del aviso legal-->
+                            <input id="privacidad" name="privacidad" type="checkbox" required>He leído y acepto <a href="aviso-legal.html">Aviso legal</a>
+                        </label>
+                        <div class="full">
+                            <button type="submit" class="btn-primary">Enviar solicitud</button>
+                        </div>
                     </div>
                 </form>
             </div>
